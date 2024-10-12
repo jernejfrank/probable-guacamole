@@ -4,7 +4,24 @@ version = "0.1.0"
 description = "Statistical Learning Pipelines"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "duckdb>=1.1.1",
+    "lancedb>=0.6.3",
+    "notebook>=7.2.2",
+    "numpy>=2.1.2",
+    "pandas>=2.2.3",
+    "pandera>=0.20.4",
+    "plotly>=5.24.1",
+    "pyarrow>=17.0.0",
+    "pydantic>=2.9.2",
+    "pytorch-lightning>=2.4.0",
+    "scikit-learn>=1.5.2",
+    "scipy>=1.14.1",
+    "sf-hamilton>=1.80.0",
+    "statsmodels>=0.14.4",
+    "torch==2.2.2",
+    "torchmetrics>=1.4.3",
+]
 
 [project.urls]
 Homepage = "https://jernejfrank.github.io/probable-guacamole/"
