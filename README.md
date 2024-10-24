@@ -17,3 +17,8 @@ I am working through [this book](https://www.statlearning.com)<sup>1</sup> to ex
 
 ### Suggestions
 Always welcome there's a template or open a PR.
+
+
+
+## TODO
+- Better way to use Polars in Hamilton (i.e. how to switch between eager and lazy)
