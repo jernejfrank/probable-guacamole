@@ -148,5 +148,6 @@ line-ending = "auto"
 ]
 "examples/*" = [
   "D103",
+  "N803",
   "T201",
 ]

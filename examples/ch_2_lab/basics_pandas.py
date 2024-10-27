@@ -23,9 +23,7 @@ from hamilton.function_modifiers import (
 )
 @config.when(state="raw")
 def auto__raw() -> pd.DataFrame:
-    return pd.read_csv(
-        "/Users/jernejfrank/Documents/code/probable-guacamole/datasets/Auto.csv"
-    )
+    return pd.read_csv("../../datasets/Auto.csv")
 
 
 def _replace_invalids_with_nan(
@@ -65,9 +63,7 @@ def _convert_to_numeric(series: pd.Series) -> pd.Series:
 )
 @config.when(state="cleaned")
 def auto__cleaned() -> pd.DataFrame:
-    return pd.read_csv(
-        "/Users/jernejfrank/Documents/code/probable-guacamole/datasets/Auto.csv"
-    )
+    return pd.read_csv("../../datasets/Auto.csv")
 
 
 def unique_horsepower(horsepower: pd.Series) -> pd.Series:
